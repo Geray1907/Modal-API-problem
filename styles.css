@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.contaBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.imgBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imgBox {
+    width: 300px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+
+  .contaModal {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.329);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    top: 0;
+  }
+
+  span {
+    color: white;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    cursor: pointer;
+  }
+
+  .info {
+    background-color: white;
+    width: 50vw;
+    height: 50vh;
+  }
